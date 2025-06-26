@@ -8,7 +8,7 @@ export const WithoutAuth = () => {
     <div
       style={{ display: 'flex', justifyContent: 'space-between', gap: '2rem' }}
     >
-      <div>Renders from component that does not use useAuth:</div>
+      <div>Renders in component that does not use useAuth:</div>
       <div>{renderCount.current}</div>
     </div>
   );

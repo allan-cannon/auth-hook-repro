@@ -8,7 +8,7 @@ export const WithAuth = () => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-      <div>Renders from component that uses useAuth:</div>
+      <div>Renders in component that uses useAuth:</div>
       <div>{renderCount.current}</div>
     </div>
   );
