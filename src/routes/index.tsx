@@ -9,8 +9,8 @@ export default function IndexPage() {
         <UserButton />
       </div>
       <h1>This is the index page</h1>
-      <WithAuth />
       <WithoutAuth />
+      <WithAuth />
     </div>
   );
 }
